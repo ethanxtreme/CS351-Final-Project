@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+    <main>
+        <section id="logActivity">
+            <h2>Log Activity</h2>
+            <!-- Form for logging activities -->
+            <form id="activityForm">
+                <label for="activityType">Activity Type:</label>
+                <input type="text" id="activityType" required>
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" required>
+                <button type="submit">Log Activity</button>
+            </form>
+        </section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <!-- Placeholder for summary data -->
+            <div id="summaryData"></div>
+        </section>
+        <section id="visualization">
+            <h2>Visualization</h2>
+            <!-- Placeholder for visualization -->
+            <canvas id="activityChart"></canvas>
+        </section>
+    </main>
+    <script src="FitnessApp.js"></script>
+</body>
+</html>
