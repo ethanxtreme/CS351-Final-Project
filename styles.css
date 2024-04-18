@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4278b3;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -41,6 +41,7 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    padding: 20px;
 }
 
 #summaryData {
@@ -52,4 +53,19 @@ canvas {
     width: 100%;
     height: auto;
     border: 1px solid #ccc;
+}
+
+.logActivityButton {
+    font-size: 21px; 
+    border-radius: 7px; 
+    background-color: #4CAF50; 
+    color: rgb(255, 255, 255);
+    padding: 5px 20px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.logActivityButton:hover {
+    background-color: #3a873e; /* Change background color on hover */
 }
