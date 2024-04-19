@@ -69,3 +69,9 @@ canvas {
 .logActivityButton:hover {
     background-color: #3a873e; /* Change background color on hover */
 }
+
+#chartContainer {
+    width: 400px;
+    height: 400px;
+}
+
